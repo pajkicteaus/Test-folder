@@ -10,6 +10,33 @@
     <p>This is a sample webpage created to demonstrate basic HTML structure.</p>
     <p>Feel free to explore and learn more about HTML!</p>
     <p>TEA TEST COMMIT Tester</p>
+
+    <p>TEA TEST COMMIT Testerrrrrrr - commit 1 </p>
 <p>TEA TEST COMMIT</p>
+
+<script>
+  // Example API call (replace with your actual API call)
+
+  const apiUrl = 'https://api.example.com/data'; // Replace with your API URL
+  
+  console.log("apiUrl IN INDEX PAGE.    ", apiUrl); 
+  console.log("apiUrl in NEW PAGE:", apiUrl); 
+
+
+
+  
+  fetch(apiUrl)
+    .then(response => response.json())
+    .then(data => {
+      console.log('API Response:', data);
+      // You can add your rendering logic here
+    })
+    .catch(error => {
+      console.error('API Error:', error);
+    });
+</script>
 </body>
+
 </html>
+
+
